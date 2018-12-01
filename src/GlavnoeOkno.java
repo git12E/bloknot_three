@@ -45,6 +45,7 @@ public class GlavnoeOkno extends JDialog {
             writer = new FileWriter(cUsersUser1IdeaProjectsTextField.getText(), false);
             writer.write(editorPane1.getText());
             writer.flush();
+            
         } catch (IOException e) {
             e.printStackTrace();
         }
